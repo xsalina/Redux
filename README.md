@@ -11,9 +11,11 @@ redux 订阅模式
             yard add redux
 
 
+
 2、引入createStore,相当于一个商店
            
 	import {createStore} from “redux”
+
 
 
 
@@ -37,6 +39,7 @@ redux 订阅模式
 	}
 
 
+
 4、要去改变state就要调用store里面的dispatch执行函数，并传入一个action的type类型以对象的形式
 
 	A、这是type类型为addnum并执行，使得state在原先基础上+5
@@ -49,6 +52,7 @@ redux 订阅模式
 	store.dispatch（{
      	       type：“reducenum”
 	}）
+
 
 
 
